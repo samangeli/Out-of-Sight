@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF00A0B51A9125B7001792C4 /* styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00A0B41A9125B7001792C4 /* styles.swift */; };
+		AF9BE5251A8C0CDE002A8676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BE5241A8C0CDE002A8676 /* AppDelegate.swift */; };
+		AF9BE5271A8C0CDE002A8676 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BE5261A8C0CDE002A8676 /* ViewController.swift */; };
+		AF9BE52A1A8C0CDE002A8676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9BE5281A8C0CDE002A8676 /* Main.storyboard */; };
+		AF9BE52F1A8C0CDE002A8676 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF9BE52D1A8C0CDE002A8676 /* LaunchScreen.xib */; };
+		AF9BE53B1A8C0CDE002A8676 /* Out_of_SightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BE53A1A8C0CDE002A8676 /* Out_of_SightTests.swift */; };
+		AF9BE5451A8C0DC9002A8676 /* MissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BE5441A8C0DC9002A8676 /* MissionsViewController.swift */; };
+		AF9BE5471A8C0DF9002A8676 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BE5461A8C0DF9002A8676 /* PlaylistViewController.swift */; };
+		AF9BE5491A8C0F7F002A8676 /* BriefingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BE5481A8C0F7F002A8676 /* BriefingsViewController.swift */; };
+		AF9BE54B1A8C16E4002A8676 /* TheMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BE54A1A8C16E4002A8676 /* TheMissionViewController.swift */; };
+		AF9BE54D1A8C1BFE002A8676 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BE54C1A8C1BFE002A8676 /* SettingsViewController.swift */; };
+		AF9BE5581A8CC23A002A8676 /* Purista Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF9BE54E1A8CC23A002A8676 /* Purista Bold Italic.otf */; };
+		AF9BE5591A8CC23A002A8676 /* Purista Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF9BE54F1A8CC23A002A8676 /* Purista Bold.otf */; };
+		AF9BE55A1A8CC23A002A8676 /* Purista Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF9BE5501A8CC23A002A8676 /* Purista Light Italic.otf */; };
+		AF9BE55B1A8CC23A002A8676 /* Purista Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF9BE5511A8CC23A002A8676 /* Purista Light.otf */; };
+		AF9BE55C1A8CC23A002A8676 /* Purista Medium Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF9BE5521A8CC23A002A8676 /* Purista Medium Italic.otf */; };
+		AF9BE55D1A8CC23A002A8676 /* Purista Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF9BE5531A8CC23A002A8676 /* Purista Medium.otf */; };
+		AF9BE55E1A8CC23A002A8676 /* Purista Semibold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF9BE5541A8CC23A002A8676 /* Purista Semibold Italic.otf */; };
+		AF9BE55F1A8CC23A002A8676 /* Purista Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF9BE5551A8CC23A002A8676 /* Purista Semibold.otf */; };
+		AF9BE5601A8CC23A002A8676 /* Purista Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF9BE5561A8CC23A002A8676 /* Purista Thin Italic.otf */; };
+		AF9BE5611A8CC23A002A8676 /* Purista Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF9BE5571A8CC23A002A8676 /* Purista Thin.otf */; };
+		AF9BE5631A8CC5D2002A8676 /* MissionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BE5621A8CC5D2002A8676 /* MissionCell.swift */; };
+		AF9BE5651A8CC87C002A8676 /* Missions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BE5641A8CC87C002A8676 /* Missions.swift */; };
+		AFCB32E41A9ACE31007D1890 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCB32E31A9ACE31007D1890 /* Images.xcassets */; };
+		AFED78FA1AA75C2F00C89718 /* PlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFED78F91AA75C2F00C89718 /* PlaylistCell.swift */; };
+		AFED78FC1AA75C3E00C89718 /* Playlists.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFED78FB1AA75C3E00C89718 /* Playlists.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF9BE5351A8C0CDE002A8676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF9BE5171A8C0CDE002A8676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF9BE51E1A8C0CDE002A8676;
+			remoteInfo = "Out of Sight";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF00A0B41A9125B7001792C4 /* styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = styles.swift; sourceTree = "<group>"; };
+		AF9BE51F1A8C0CDE002A8676 /* Out of Sight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Out of Sight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9BE5231A8C0CDE002A8676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9BE5241A8C0CDE002A8676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF9BE5261A8C0CDE002A8676 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF9BE5291A8C0CDE002A8676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF9BE52E1A8C0CDE002A8676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AF9BE5341A8C0CDE002A8676 /* Out of SightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Out of SightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9BE5391A8C0CDE002A8676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9BE53A1A8C0CDE002A8676 /* Out_of_SightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Out_of_SightTests.swift; sourceTree = "<group>"; };
+		AF9BE5441A8C0DC9002A8676 /* MissionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionsViewController.swift; sourceTree = "<group>"; };
+		AF9BE5461A8C0DF9002A8676 /* PlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		AF9BE5481A8C0F7F002A8676 /* BriefingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BriefingsViewController.swift; sourceTree = "<group>"; };
+		AF9BE54A1A8C16E4002A8676 /* TheMissionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheMissionViewController.swift; sourceTree = "<group>"; };
+		AF9BE54C1A8C1BFE002A8676 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AF9BE54E1A8CC23A002A8676 /* Purista Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Purista Bold Italic.otf"; path = "../Purista Bold Italic.otf"; sourceTree = "<group>"; };
+		AF9BE54F1A8CC23A002A8676 /* Purista Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Purista Bold.otf"; path = "../Purista Bold.otf"; sourceTree = "<group>"; };
+		AF9BE5501A8CC23A002A8676 /* Purista Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Purista Light Italic.otf"; path = "../Purista Light Italic.otf"; sourceTree = "<group>"; };
+		AF9BE5511A8CC23A002A8676 /* Purista Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Purista Light.otf"; path = "../Purista Light.otf"; sourceTree = "<group>"; };
+		AF9BE5521A8CC23A002A8676 /* Purista Medium Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Purista Medium Italic.otf"; path = "../Purista Medium Italic.otf"; sourceTree = "<group>"; };
+		AF9BE5531A8CC23A002A8676 /* Purista Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Purista Medium.otf"; path = "../Purista Medium.otf"; sourceTree = "<group>"; };
+		AF9BE5541A8CC23A002A8676 /* Purista Semibold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Purista Semibold Italic.otf"; path = "../Purista Semibold Italic.otf"; sourceTree = "<group>"; };
+		AF9BE5551A8CC23A002A8676 /* Purista Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Purista Semibold.otf"; path = "../Purista Semibold.otf"; sourceTree = "<group>"; };
+		AF9BE5561A8CC23A002A8676 /* Purista Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Purista Thin Italic.otf"; path = "../Purista Thin Italic.otf"; sourceTree = "<group>"; };
+		AF9BE5571A8CC23A002A8676 /* Purista Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Purista Thin.otf"; path = "../Purista Thin.otf"; sourceTree = "<group>"; };
+		AF9BE5621A8CC5D2002A8676 /* MissionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionCell.swift; sourceTree = "<group>"; };
+		AF9BE5641A8CC87C002A8676 /* Missions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Missions.swift; sourceTree = "<group>"; };
+		AFCB32E31A9ACE31007D1890 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Out of Sight/Images.xcassets"; sourceTree = "<group>"; };
+		AFED78F91AA75C2F00C89718 /* PlaylistCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistCell.swift; sourceTree = "<group>"; };
+		AFED78FB1AA75C3E00C89718 /* Playlists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlists.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF9BE51C1A8C0CDE002A8676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9BE5311A8C0CDE002A8676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF09D5541A91AEE500AF1764 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF9BE5261A8C0CDE002A8676 /* ViewController.swift */,
+				AF9BE54C1A8C1BFE002A8676 /* SettingsViewController.swift */,
+				AF9BE5441A8C0DC9002A8676 /* MissionsViewController.swift */,
+				AF9BE5481A8C0F7F002A8676 /* BriefingsViewController.swift */,
+				AF9BE5461A8C0DF9002A8676 /* PlaylistViewController.swift */,
+				AF9BE54A1A8C16E4002A8676 /* TheMissionViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AF09D5551A91AF0800AF1764 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				AF09D5561A91AF4C00AF1764 /* Fonts */,
+				AF00A0B41A9125B7001792C4 /* styles.swift */,
+				AFED78F91AA75C2F00C89718 /* PlaylistCell.swift */,
+				AFED78FB1AA75C3E00C89718 /* Playlists.swift */,
+				AF9BE5621A8CC5D2002A8676 /* MissionCell.swift */,
+				AF9BE5641A8CC87C002A8676 /* Missions.swift */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		AF09D5561A91AF4C00AF1764 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AF9BE54E1A8CC23A002A8676 /* Purista Bold Italic.otf */,
+				AF9BE54F1A8CC23A002A8676 /* Purista Bold.otf */,
+				AF9BE5501A8CC23A002A8676 /* Purista Light Italic.otf */,
+				AF9BE5511A8CC23A002A8676 /* Purista Light.otf */,
+				AF9BE5521A8CC23A002A8676 /* Purista Medium Italic.otf */,
+				AF9BE5531A8CC23A002A8676 /* Purista Medium.otf */,
+				AF9BE5541A8CC23A002A8676 /* Purista Semibold Italic.otf */,
+				AF9BE5551A8CC23A002A8676 /* Purista Semibold.otf */,
+				AF9BE5561A8CC23A002A8676 /* Purista Thin Italic.otf */,
+				AF9BE5571A8CC23A002A8676 /* Purista Thin.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		AF9BE5161A8C0CDE002A8676 = {
+			isa = PBXGroup;
+			children = (
+				AFCB32E31A9ACE31007D1890 /* Images.xcassets */,
+				AF9BE5211A8C0CDE002A8676 /* Out of Sight */,
+				AF9BE5371A8C0CDE002A8676 /* Out of SightTests */,
+				AF9BE5201A8C0CDE002A8676 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF9BE5201A8C0CDE002A8676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF9BE51F1A8C0CDE002A8676 /* Out of Sight.app */,
+				AF9BE5341A8C0CDE002A8676 /* Out of SightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF9BE5211A8C0CDE002A8676 /* Out of Sight */ = {
+			isa = PBXGroup;
+			children = (
+				AF9BE5281A8C0CDE002A8676 /* Main.storyboard */,
+				AF9BE5241A8C0CDE002A8676 /* AppDelegate.swift */,
+				AF9BE52D1A8C0CDE002A8676 /* LaunchScreen.xib */,
+				AF09D5541A91AEE500AF1764 /* View Controllers */,
+				AF09D5551A91AF0800AF1764 /* Support */,
+				AF9BE5221A8C0CDE002A8676 /* Supporting Files */,
+			);
+			path = "Out of Sight";
+			sourceTree = "<group>";
+		};
+		AF9BE5221A8C0CDE002A8676 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF9BE5231A8C0CDE002A8676 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF9BE5371A8C0CDE002A8676 /* Out of SightTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF9BE53A1A8C0CDE002A8676 /* Out_of_SightTests.swift */,
+				AF9BE5381A8C0CDE002A8676 /* Supporting Files */,
+			);
+			path = "Out of SightTests";
+			sourceTree = "<group>";
+		};
+		AF9BE5381A8C0CDE002A8676 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF9BE5391A8C0CDE002A8676 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF9BE51E1A8C0CDE002A8676 /* Out of Sight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9BE53E1A8C0CDE002A8676 /* Build configuration list for PBXNativeTarget "Out of Sight" */;
+			buildPhases = (
+				AF9BE51B1A8C0CDE002A8676 /* Sources */,
+				AF9BE51C1A8C0CDE002A8676 /* Frameworks */,
+				AF9BE51D1A8C0CDE002A8676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Out of Sight";
+			productName = "Out of Sight";
+			productReference = AF9BE51F1A8C0CDE002A8676 /* Out of Sight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF9BE5331A8C0CDE002A8676 /* Out of SightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9BE5411A8C0CDE002A8676 /* Build configuration list for PBXNativeTarget "Out of SightTests" */;
+			buildPhases = (
+				AF9BE5301A8C0CDE002A8676 /* Sources */,
+				AF9BE5311A8C0CDE002A8676 /* Frameworks */,
+				AF9BE5321A8C0CDE002A8676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF9BE5361A8C0CDE002A8676 /* PBXTargetDependency */,
+			);
+			name = "Out of SightTests";
+			productName = "Out of SightTests";
+			productReference = AF9BE5341A8C0CDE002A8676 /* Out of SightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF9BE5171A8C0CDE002A8676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Sam Angeli";
+				TargetAttributes = {
+					AF9BE51E1A8C0CDE002A8676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AF9BE5331A8C0CDE002A8676 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AF9BE51E1A8C0CDE002A8676;
+					};
+				};
+			};
+			buildConfigurationList = AF9BE51A1A8C0CDE002A8676 /* Build configuration list for PBXProject "Out of Sight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF9BE5161A8C0CDE002A8676;
+			productRefGroup = AF9BE5201A8C0CDE002A8676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF9BE51E1A8C0CDE002A8676 /* Out of Sight */,
+				AF9BE5331A8C0CDE002A8676 /* Out of SightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF9BE51D1A8C0CDE002A8676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9BE5611A8CC23A002A8676 /* Purista Thin.otf in Resources */,
+				AF9BE52A1A8C0CDE002A8676 /* Main.storyboard in Resources */,
+				AF9BE55A1A8CC23A002A8676 /* Purista Light Italic.otf in Resources */,
+				AFCB32E41A9ACE31007D1890 /* Images.xcassets in Resources */,
+				AF9BE5581A8CC23A002A8676 /* Purista Bold Italic.otf in Resources */,
+				AF9BE5601A8CC23A002A8676 /* Purista Thin Italic.otf in Resources */,
+				AF9BE55E1A8CC23A002A8676 /* Purista Semibold Italic.otf in Resources */,
+				AF9BE55F1A8CC23A002A8676 /* Purista Semibold.otf in Resources */,
+				AF9BE52F1A8C0CDE002A8676 /* LaunchScreen.xib in Resources */,
+				AF9BE55B1A8CC23A002A8676 /* Purista Light.otf in Resources */,
+				AF9BE5591A8CC23A002A8676 /* Purista Bold.otf in Resources */,
+				AF9BE55D1A8CC23A002A8676 /* Purista Medium.otf in Resources */,
+				AF9BE55C1A8CC23A002A8676 /* Purista Medium Italic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9BE5321A8C0CDE002A8676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF9BE51B1A8C0CDE002A8676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9BE5471A8C0DF9002A8676 /* PlaylistViewController.swift in Sources */,
+				AF00A0B51A9125B7001792C4 /* styles.swift in Sources */,
+				AF9BE54B1A8C16E4002A8676 /* TheMissionViewController.swift in Sources */,
+				AF9BE54D1A8C1BFE002A8676 /* SettingsViewController.swift in Sources */,
+				AF9BE5451A8C0DC9002A8676 /* MissionsViewController.swift in Sources */,
+				AFED78FA1AA75C2F00C89718 /* PlaylistCell.swift in Sources */,
+				AF9BE5491A8C0F7F002A8676 /* BriefingsViewController.swift in Sources */,
+				AF9BE5271A8C0CDE002A8676 /* ViewController.swift in Sources */,
+				AF9BE5651A8CC87C002A8676 /* Missions.swift in Sources */,
+				AF9BE5631A8CC5D2002A8676 /* MissionCell.swift in Sources */,
+				AF9BE5251A8C0CDE002A8676 /* AppDelegate.swift in Sources */,
+				AFED78FC1AA75C3E00C89718 /* Playlists.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9BE5301A8C0CDE002A8676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9BE53B1A8C0CDE002A8676 /* Out_of_SightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF9BE5361A8C0CDE002A8676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF9BE51E1A8C0CDE002A8676 /* Out of Sight */;
+			targetProxy = AF9BE5351A8C0CDE002A8676 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF9BE5281A8C0CDE002A8676 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF9BE5291A8C0CDE002A8676 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF9BE52D1A8C0CDE002A8676 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF9BE52E1A8C0CDE002A8676 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF9BE53C1A8C0CDE002A8676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF9BE53D1A8C0CDE002A8676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF9BE53F1A8C0CDE002A8676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Out of Sight/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF9BE5401A8C0CDE002A8676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Out of Sight/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF9BE5421A8C0CDE002A8676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Out of SightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Out of Sight.app/Out of Sight";
+			};
+			name = Debug;
+		};
+		AF9BE5431A8C0CDE002A8676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Out of SightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Out of Sight.app/Out of Sight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF9BE51A1A8C0CDE002A8676 /* Build configuration list for PBXProject "Out of Sight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9BE53C1A8C0CDE002A8676 /* Debug */,
+				AF9BE53D1A8C0CDE002A8676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9BE53E1A8C0CDE002A8676 /* Build configuration list for PBXNativeTarget "Out of Sight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9BE53F1A8C0CDE002A8676 /* Debug */,
+				AF9BE5401A8C0CDE002A8676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9BE5411A8C0CDE002A8676 /* Build configuration list for PBXNativeTarget "Out of SightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9BE5421A8C0CDE002A8676 /* Debug */,
+				AF9BE5431A8C0CDE002A8676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF9BE5171A8C0CDE002A8676 /* Project object */;
+}
