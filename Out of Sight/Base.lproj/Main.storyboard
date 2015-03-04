@@ -239,6 +239,7 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wmf-bo-DsI">
                                                     <rect key="frame" x="15" y="23" width="24" height="24"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="24" id="Waj-eN-qC2"/>
                                                         <constraint firstAttribute="height" constant="24" id="ZLe-JZ-WdL"/>
@@ -261,6 +262,7 @@
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="mH2-8j-jTP">
                                                     <rect key="frame" x="296" y="28" width="10" height="15"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="10" id="T30-5E-Pxj"/>
                                                         <constraint firstAttribute="height" constant="15" id="zgS-4M-asA"/>
@@ -682,6 +684,7 @@ This mission replicates the ‘Jungle phase’ of British SAS training. Enjoy, b
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oQ0-Ij-iBV" customClass="Unlocked" customModule="Out_of_Sight" customModuleProvider="target">
                                 <rect key="frame" x="282" y="65" width="38" height="38"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="38" id="5d6-R4-xhz"/>
                                     <constraint firstAttribute="height" constant="38" id="UDQ-lu-EV2"/>
